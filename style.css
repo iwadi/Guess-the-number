@@ -1,0 +1,48 @@
+.container {
+    margin: 0 auto;
+    max-width: 1500px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Courier New';
+    font-size: 32px;
+    color: red;
+}
+
+p {
+    font-family: 'Courier New';
+    font-size: 32px;
+    color: blue;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    width: 100px;
+    height: 20px;
+    font-size: 32px;
+}
+
+button {
+    background-color: #fff;
+    border: none;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    transition: all .3s;
+}
+button:hover {
+    transform: scale(1.05);
+    opacity: 70%;
+}
